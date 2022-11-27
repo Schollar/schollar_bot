@@ -8,6 +8,6 @@ module.exports = {
      * @param {ChatInputCommandInteraction} interaction
      */
     async execute(interaction) {
-        await interaction.reply({ content: 'POGGERS', ephemeral: true });
+        await interaction.reply({ content: 'Pong', ephemeral: true });
     },
 };
